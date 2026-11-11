@@ -16,6 +16,7 @@
 | ゲーム概要、スコープ、制作順 | [Design/Overview.md](Design/Overview.md) |
 | リア・雑魚敵のキャラクターデザインと画像 | [Design/Characters.md](Design/Characters.md) |
 | 通常攻撃、コンボ、ステップ、キャンセル、攻撃の隙 | [Design/Combat.md](Design/Combat.md) |
+| 大群殲滅のコンセプト、群れの規模、戦闘サイクル、性能目標 | [Design/CombatScale.md](Design/CombatScale.md) |
 | モーション概要、制作・編集方針、基本構え、待機→攻撃ブレンド | [Design/AttackMotion_Common.md](Design/AttackMotion_Common.md) |
 | 弱→弱→強（斜め斬り・斬り上げ・低空360°回転斬り） | [Design/AttackMotion_WeakWeakStrong.md](Design/AttackMotion_WeakWeakStrong.md) |
 | 弱→強→強（低い突き・両手での縦斬り） | [Design/AttackMotion_WeakStrongStrong.md](Design/AttackMotion_WeakStrongStrong.md) |
@@ -37,7 +38,7 @@
 
 1部屋・雑魚敵1種・リアの弱/強攻撃とステップで、「集めて斬り払う」を繰り返したくなるか。ショップ・ボス・ローグライト要素は初回プロトタイプには含めない。
 
-最終更新: 2026-11-05。実装値（フレーム数、倍率、価格など）は特記がなければ未確定。
+最終更新: 2026-11-11。実装値（フレーム数、倍率、価格など）は特記がなければ未確定。
 
 ## テンプレートへの情報の追加
 

@@ -24,6 +24,7 @@
         <ul class="wiki-nav-list">
           <li><a href="#overview" data-page-link="overview">概要</a></li>
           <li><a href="#core">コア体験</a></li>
+          <li><a href="#crowd-scale">大群殲滅の規模</a></li>
           <li><a href="#combo">コンボ・ステップ</a>
             <ul><li><a href="#combo-001">攻撃の成立</a></li><li><a href="#combo-002">ステップ挿入規則</a></li></ul>
           </li>
@@ -76,6 +77,15 @@
 <section class="section" id="core"><div class="heading"><div><h2>3つの柱</h2></div><span class="pill green">方向性確定</span></div>
   <ul class="document-list"><li><h3>弱攻撃で集める</h3><p class="muted small">素早い広範囲攻撃。敵を散らさず、リアの<strong>前方の一点</strong>へ寄せる。</p></li><li><h3>強攻撃でなぎ倒す</h3><p class="muted small">範囲殲滅と単体火力を使い分け。<strong>大量撃破</strong>の感触が最優先。</p></li><li><h3>戦闘後に育てる</h3><p class="muted small">撃破で通貨を自動獲得。部屋の間に購入してビルドを伸ばす。</p></li></ul>
   <div class="note" style="margin-top:12px">基本雑魚は<span style="color:var(--text)">無双寄り</span>：多数が接近・包囲、同時攻撃は控えめ。理不尽な集中攻撃より、気持ちよいリアクションを優先。</div>
+</section>
+<section class="section" id="crowd-scale">
+  <div class="heading"><div><h2>大群殲滅の規模</h2><p class="muted small">一騎当千を、戦場の人数ではなくリアが直接相手にする敵の密度と撃破数で表現する。</p></div><span class="pill orange">数値は仮目標</span></div>
+  <ul class="document-list">
+    <li><h3>1群れ300〜500体・3〜4群れ</h3><p class="muted small">同時存在は約900〜2,000体を想定。各群れは離れた場所に独立配置し、連鎖的な合流は基本的にさせない。</p></li>
+    <li><h3>弱で削り、強で一掃</h3><p class="muted small">弱1・弱2で集敵とダメージを蓄積し、強3でまとめて撃破。最終強化時は<strong>弱→弱→強で約100体撃破</strong>を目標とする。</p></li>
+    <li><h3>殲滅 → 移動 → 殲滅</h3><p class="muted small">群れごとの戦闘を区切り、次の群れへの移動を緩急や景観を見せる時間として活用。通常プレイで数分間に数千体を倒す体験を目指す。</p></li>
+  </ul>
+  <div class="note">自作HestiaEngineで実ゲーム負荷<strong>60fps</strong>を目指すが、敵数・性能は未実測。最大Entity数の技術デモは本編と分離して検証する。詳しくは <code>Design/CombatScale.md</code> を参照。</div>
 </section>
 <section class="section" id="combo"><div class="heading"><div><h2>基本コンボは3本</h2></div><span class="pill green">確定</span></div>
   <div class="widget" role="group" aria-label="コンボ切り替え">
