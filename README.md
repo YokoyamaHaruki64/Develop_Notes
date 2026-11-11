@@ -12,6 +12,7 @@ C++製ゲームエンジンの設計資料です。
 - [設計方針](HestiaDesign/ClassDesign.md)
 - [Subsystem / Boundary API / Game Facade](HestiaDesign/SubsystemApiFacadeDesign.md)
 - [命名規則](HestiaDesign/NamingConvention.md)
+- [TransformProcess チャンク並列化設計案](HestiaDesign/TransformProcessParallelization.md)
 - [クラス設計資料](HestiaDesign/Class/)
 
 現在はMarkdownをGitHub上で閲覧します。必要に応じて専用のHTML Wikiへ拡張します。
