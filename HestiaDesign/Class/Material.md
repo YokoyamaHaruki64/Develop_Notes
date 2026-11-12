@@ -285,5 +285,3 @@ AssetHandle<Material> AssetLoader<Material>::Load(
 - [MaterialShader（このリポジトリ）](./MaterialShader.md)
 - [HestiaDesign / Material](https://github.com/YokoyamaHaruki64/HestiaDesign/blob/main/Asset/Material.md)
 - [HestiaDesign / MaterialShaderDSL](https://github.com/YokoyamaHaruki64/HestiaDesign/blob/main/Graphics/MaterialShaderDSL.md)
-- [GM_Framework / Material.h](https://github.com/chaba0426/GM_Framework/blob/main/include/Graphics/Material.h)
-- [GM_Framework / Material.cpp](https://github.com/chaba0426/GM_Framework/blob/main/source/Graphics/Material.cpp)

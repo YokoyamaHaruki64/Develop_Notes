@@ -375,5 +375,3 @@ AssetLoader<MaterialShader>
 
 - [HestiaDesign / MaterialShaderDSL](https://github.com/YokoyamaHaruki64/HestiaDesign/blob/main/Graphics/MaterialShaderDSL.md)
 - [HestiaDesign / Material](https://github.com/YokoyamaHaruki64/HestiaDesign/blob/main/Asset/Material.md)
-- [GM_Framework / ShaderLoader.cpp](https://github.com/chaba0426/GM_Framework/blob/main/source/Graphics/Shader/ShaderLoader.cpp)
-- [GM_Framework / ShaderReflector.cpp](https://github.com/chaba0426/GM_Framework/blob/main/source/Graphics/Shader/ShaderReflector.cpp)
