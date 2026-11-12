@@ -1,29 +1,21 @@
 # Develop Notes
 
-HestiaEngineとLEIR(仮題)の設計資料・開発ノートをまとめたリポジトリです。
+HestiaEngineとLEIR（仮題）の設計資料・開発ノートです。
 
-- **開発Wiki トップページ** : [index.html](index.html)
-- **GitHub Pages** : https:/YokoyamaHaruki64.github.io/Develop_Notes/
+- **開発Wiki（GitHub Pages）**: https://yokoyamaharuki64.github.io/Develop_Notes/
+- **Wiki閲覧用HTML**: [index.html](index.html)
+- **HestiaEngineの設計資料**: [HestiaDesign/](HestiaDesign/)
+- **LEIRの仕様書**: [MusouGame/Design/](MusouGame/Design/)
+- **LEIRの編集用索引**: [MusouGame/README.md](MusouGame/README.md)
 
-## HestiaEngine
+## 生成と更新
 
-C++製ゲームエンジンの設計資料です。
+Markdownが仕様の正本です。閲覧用HTMLは `wiki.json` とMarkdownを元に [development-wiki-generator](https://github.com/YokoyamaHaruki64/development-wiki-generator) で生成します。旧 `MusouGame/Web/` のHTML手編集・バンドル方式は廃止しました。
 
-- [設計方針](HestiaDesign/ClassDesign.md)
-- [Subsystem / Boundary API / Game Facade](HestiaDesign/SubsystemApiFacadeDesign.md)
-- [命名規則](HestiaDesign/NamingConvention.md)
-- [TransformProcess チャンク並列化設計案](HestiaDesign/TransformProcessParallelization.md)
-- [クラス設計資料](HestiaDesign/Class/)
+```sh
+git submodule update --init
+node development-wiki-generator/build.mjs --config wiki.json
+node development-wiki-generator/build.mjs --config wiki.json --check
+```
 
-現在はMarkdownをGitHub上で閲覧します。必要に応じて専用のHTML Wikiへ拡張します。
-
-## LEIR / 無双アクション
-
-3Dアクションゲームの企画・仕様資料です。
-
-- [開発Wiki（ブラウザ閲覧）](MusouGame/index.html)
-- [設計資料の索引（AI・開発者向け）](MusouGame/README.md)
-- [設計Markdown](MusouGame/Design/)
-- [表示テンプレート・情報整理ルール](MusouGame/DESIGN.md)
-
-LEIRでは `MusouGame/Design/*.md` を仕様の正本として管理し、`MusouGame/index.html` を閲覧用に同期します。編集元と生成手順は [MusouGame/README.md](MusouGame/README.md) を参照してください。
+Node.js 24での利用を推奨します。画像と内部リンクを含め、編集後は `--check` で生成物の一致を確認してください。

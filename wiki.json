@@ -1,0 +1,442 @@
+{
+  "version": 1,
+  "title": "Develop Notes — 開発Wiki",
+  "root": ".",
+  "home": "home",
+  "output": {
+    "mode": "single",
+    "path": "index.html"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "documents": [
+        {
+          "id": "home",
+          "source": "WikiHome.md"
+        }
+      ]
+    },
+    {
+      "id": "hestia-class-design",
+      "documents": [
+        {
+          "id": "hestia-class-design",
+          "source": "HestiaDesign/ClassDesign.md"
+        }
+      ]
+    },
+    {
+      "id": "hestia-naming",
+      "documents": [
+        {
+          "id": "hestia-naming",
+          "source": "HestiaDesign/NamingConvention.md"
+        }
+      ]
+    },
+    {
+      "id": "hestia-boundary",
+      "documents": [
+        {
+          "id": "hestia-boundary",
+          "source": "HestiaDesign/SubsystemApiFacadeDesign.md"
+        }
+      ]
+    },
+    {
+      "id": "hestia-transform-parallel",
+      "documents": [
+        {
+          "id": "hestia-transform-parallel",
+          "source": "HestiaDesign/TransformProcessParallelization.md"
+        }
+      ]
+    },
+    {
+      "id": "hestia-application",
+      "documents": [
+        {
+          "id": "hestia-application",
+          "source": "HestiaDesign/Class/Application.md"
+        }
+      ]
+    },
+    {
+      "id": "hestia-engine",
+      "documents": [
+        {
+          "id": "hestia-engine",
+          "source": "HestiaDesign/Class/Engine.md"
+        }
+      ]
+    },
+    {
+      "id": "hestia-time",
+      "documents": [
+        {
+          "id": "hestia-time",
+          "source": "HestiaDesign/Class/Time.md"
+        }
+      ]
+    },
+    {
+      "id": "hestia-asset-system",
+      "documents": [
+        {
+          "id": "hestia-asset-system",
+          "source": "HestiaDesign/Class/AssetSystem.md"
+        }
+      ]
+    },
+    {
+      "id": "hestia-asset-type",
+      "documents": [
+        {
+          "id": "hestia-asset-type",
+          "source": "HestiaDesign/Class/AssetType.md"
+        }
+      ]
+    },
+    {
+      "id": "hestia-material-shader",
+      "documents": [
+        {
+          "id": "hestia-material-shader",
+          "source": "HestiaDesign/Class/MaterialShader.md"
+        }
+      ]
+    },
+    {
+      "id": "hestia-material",
+      "documents": [
+        {
+          "id": "hestia-material",
+          "source": "HestiaDesign/Class/Material.md"
+        }
+      ]
+    },
+    {
+      "id": "hestia-class-template",
+      "documents": [
+        {
+          "id": "hestia-class-template",
+          "source": "HestiaDesign/Class/_FormatTemplate.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-overview",
+      "documents": [
+        {
+          "id": "leir-overview",
+          "source": "MusouGame/Design/Overview.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-characters",
+      "documents": [
+        {
+          "id": "leir-characters",
+          "source": "MusouGame/Design/Characters.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-combat",
+      "documents": [
+        {
+          "id": "leir-combat",
+          "source": "MusouGame/Design/Combat.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-combat-scale",
+      "documents": [
+        {
+          "id": "leir-combat-scale",
+          "source": "MusouGame/Design/CombatScale.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-enemies",
+      "documents": [
+        {
+          "id": "leir-enemies",
+          "source": "MusouGame/Design/Enemies.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-roguelite",
+      "documents": [
+        {
+          "id": "leir-roguelite",
+          "source": "MusouGame/Design/Roguelite.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-motion-common",
+      "documents": [
+        {
+          "id": "leir-motion-common",
+          "source": "MusouGame/Design/AttackMotion_Common.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-motion-wws",
+      "documents": [
+        {
+          "id": "leir-motion-wws",
+          "source": "MusouGame/Design/AttackMotion_WeakWeakStrong.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-motion-wss",
+      "documents": [
+        {
+          "id": "leir-motion-wss",
+          "source": "MusouGame/Design/AttackMotion_WeakStrongStrong.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-motion-standalone",
+      "documents": [
+        {
+          "id": "leir-motion-standalone",
+          "source": "MusouGame/Design/AttackMotion_StandaloneStrong.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-motion-shooting",
+      "documents": [
+        {
+          "id": "leir-motion-shooting",
+          "source": "MusouGame/Design/AttackMotion_ShootingChecklist.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-stage-common",
+      "documents": [
+        {
+          "id": "leir-stage-common",
+          "source": "MusouGame/Design/Stage_Common.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-stage-grassland",
+      "documents": [
+        {
+          "id": "leir-stage-grassland",
+          "source": "MusouGame/Design/Stage_Grassland.md"
+        }
+      ]
+    },
+    {
+      "id": "leir-stage-ruins",
+      "documents": [
+        {
+          "id": "leir-stage-ruins",
+          "source": "MusouGame/Design/Stage_Ruins.md"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "title": "ホーム",
+      "items": [
+        {
+          "type": "link",
+          "document": "home",
+          "label": "開発Wikiトップ"
+        }
+      ]
+    },
+    {
+      "title": "HestiaEngine",
+      "items": [
+        {
+          "type": "tree",
+          "label": "設計・規約",
+          "fold": "open",
+          "items": [
+            {
+              "type": "link",
+              "document": "hestia-class-design",
+              "label": "設計方針"
+            },
+            {
+              "type": "link",
+              "document": "hestia-naming",
+              "label": "命名規則"
+            },
+            {
+              "type": "link",
+              "document": "hestia-boundary",
+              "label": "Subsystem / API境界"
+            },
+            {
+              "type": "link",
+              "document": "hestia-transform-parallel",
+              "label": "Transform並列化"
+            }
+          ]
+        },
+        {
+          "type": "tree",
+          "label": "クラス・システム",
+          "fold": "closed",
+          "items": [
+            {
+              "type": "link",
+              "document": "hestia-application",
+              "label": "Application"
+            },
+            {
+              "type": "link",
+              "document": "hestia-engine",
+              "label": "Engine"
+            },
+            {
+              "type": "link",
+              "document": "hestia-time",
+              "label": "Time"
+            },
+            {
+              "type": "link",
+              "document": "hestia-asset-system",
+              "label": "Asset System"
+            },
+            {
+              "type": "link",
+              "document": "hestia-asset-type",
+              "label": "Asset Type"
+            },
+            {
+              "type": "link",
+              "document": "hestia-material-shader",
+              "label": "Material Shader"
+            },
+            {
+              "type": "link",
+              "document": "hestia-material",
+              "label": "Material"
+            },
+            {
+              "type": "link",
+              "document": "hestia-class-template",
+              "label": "クラス設計テンプレート"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "LEIR（仮題）",
+      "items": [
+        {
+          "type": "tree",
+          "label": "ゲーム全体",
+          "fold": "closed",
+          "items": [
+            {
+              "type": "link",
+              "document": "leir-overview",
+              "label": "ゲーム概要"
+            },
+            {
+              "type": "link",
+              "document": "leir-characters",
+              "label": "キャラクター"
+            },
+            {
+              "type": "link",
+              "document": "leir-combat",
+              "label": "戦闘仕様"
+            },
+            {
+              "type": "link",
+              "document": "leir-combat-scale",
+              "label": "戦闘規模"
+            },
+            {
+              "type": "link",
+              "document": "leir-enemies",
+              "label": "敵・ボス"
+            },
+            {
+              "type": "link",
+              "document": "leir-roguelite",
+              "label": "部屋・ショップ"
+            }
+          ]
+        },
+        {
+          "type": "tree",
+          "label": "モーション",
+          "fold": "closed",
+          "items": [
+            {
+              "type": "link",
+              "document": "leir-motion-common",
+              "label": "モーション共通"
+            },
+            {
+              "type": "link",
+              "document": "leir-motion-wws",
+              "label": "弱 → 弱 → 強"
+            },
+            {
+              "type": "link",
+              "document": "leir-motion-wss",
+              "label": "弱 → 強 → 強"
+            },
+            {
+              "type": "link",
+              "document": "leir-motion-standalone",
+              "label": "単発強"
+            },
+            {
+              "type": "link",
+              "document": "leir-motion-shooting",
+              "label": "撮影チェック"
+            }
+          ]
+        },
+        {
+          "type": "tree",
+          "label": "ステージ",
+          "fold": "closed",
+          "items": [
+            {
+              "type": "link",
+              "document": "leir-stage-common",
+              "label": "ステージ共通"
+            },
+            {
+              "type": "link",
+              "document": "leir-stage-grassland",
+              "label": "草原ステージ"
+            },
+            {
+              "type": "link",
+              "document": "leir-stage-ruins",
+              "label": "遺跡ステージ"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

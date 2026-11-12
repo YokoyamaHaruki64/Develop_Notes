@@ -1,0 +1,3 @@
+[submodule "development-wiki-generator"]
+	path = development-wiki-generator
+	url = https://github.com/YokoyamaHaruki64/development-wiki-generator.git
