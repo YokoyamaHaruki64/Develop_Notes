@@ -1,0 +1,26 @@
+name: Verify generated wiki
+
+on:
+  push:
+    branches:
+      - main
+      - feature/wiki-generator-migration
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout documentation and generator
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validate generated HTML
+        run: node development-wiki-generator/build.mjs --config wiki.json --check
