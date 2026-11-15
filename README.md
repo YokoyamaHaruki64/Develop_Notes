@@ -7,6 +7,7 @@ HestiaEngineとLEIR（仮題）の設計資料・開発ノートです。
 - **HestiaEngineの設計資料**: [HestiaDesign/](HestiaDesign/)
 - **LEIRの仕様書**: [MusouGame/Design/](MusouGame/Design/)
 - **LEIRの編集用索引**: [MusouGame/README.md](MusouGame/README.md)
+- **Wiki GeneratorのActions連携設計（ラフ）**: [WikiGenerator/ActionsWorkflowDesign.md](WikiGenerator/ActionsWorkflowDesign.md)
 
 ## 生成と更新
 
