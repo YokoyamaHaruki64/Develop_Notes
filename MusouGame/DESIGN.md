@@ -4,7 +4,7 @@
 
 - ゲーム仕様の正本は `Design/*.md`。確定・仮・未決定の状態、仕様ID、前提と例外を保持する。
 - 画像素材は `Assets/`。本文に貼る画像はMarkdownの相対パスで参照する。
-- [開発Wiki](../index.html) は生成結果であり、本文をHTMLに直接重複管理しない。
+- [開発Wiki](https://yokoyamaharuki64.github.io/Develop_Notes/) は生成結果であり、本文をHTMLに直接重複管理しない。
 
 ## 文書の書き方
 

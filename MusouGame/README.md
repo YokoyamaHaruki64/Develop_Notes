@@ -23,11 +23,11 @@
 
 ## 人間向けWiki
 
-閲覧用の [開発Wiki](../index.html) は、リポジトリ直下の `wiki.json` と `Design/*.md` から自動生成しています。旧 `Web/index.html`・`Web/style.css`・`Web/script.js`・`Web/build.js` の編集は不要です。
+閲覧用の [開発Wiki](https://yokoyamaharuki64.github.io/Develop_Notes/) は、リポジトリ直下の `wiki.json` と `Design/*.md` から自動生成しています。旧 `Web/index.html`・`Web/style.css`・`Web/script.js`・`Web/build.js` の編集は不要です。
 
 - **確定**: 現段階の採用方針
 - **仮**: プロトタイプで変更する可能性のある方針や数値
 - **未決定**: まだ決めていない事項
 - **拡張候補**: 初期実装後に検討する事項
 
-更新時は対象の `Design/*.md` を先に変更し、その後 `node development-wiki-generator/build.mjs --config wiki.json` でルートのHTMLを再生成してください。古いHTML固有のハッシュURLは新Wikiのリンクと互換ではありません。新しい参照にはMarkdownのパス、または新Wikiの文書リンクを使ってください。
+更新時は対象の `Design/*.md` を先に変更してください。mainへのPush後、GitHub ActionsがWikiを再生成して公開します。ローカルで閲覧する場合は `node development-wiki-generator/build.mjs --config wiki.json` で `index.html` を生成できます。古いHTML固有のハッシュURLは新Wikiのリンクと互換ではありません。新しい参照にはMarkdownのパス、または新Wikiの文書リンクを使ってください。
